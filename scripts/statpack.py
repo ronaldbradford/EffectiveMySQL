@@ -26,6 +26,7 @@ import array
 import math
 import locale
 import time
+import MySQLdb
 
 usage = " usage: ./%s [list of arguments]\n\n" % os.path.basename(sys.argv[0])
 usage = usage+" Non-interactive mode (aggregate txt files containing SHOW STATUS snapshots):\n\n"
